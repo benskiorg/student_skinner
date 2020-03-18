@@ -1,0 +1,57 @@
+# .gitignore
+
+# ------------------------------------------------
+# Repo files / dirs
+# ------------------------------------------------
+
+# ignore all files starting with _
+_*
+
+# ignore all files in /data 
+data/*
+
+# ------------------------------------------------
+# R files
+# ------------------------------------------------
+
+# History files
+.Rhistory
+.Rapp.history
+
+# User-specific files
+.Ruserdata
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# R Environment Variables
+.Renviron
+
+# R data file types
+.rds
+.[Rr]data
+.[Rr]da
+.RDS
+.RDATA
+.RDA
+
+# ------------------------------------------------
+# System files
+# ------------------------------------------------
+
+# MacOS
+.DS_Store
+
+# Windows
+[Dd]esktop.ini
+
+# ------------------------------------------------
+# Exceptions
+# ------------------------------------------------
+
+!data/README.md
